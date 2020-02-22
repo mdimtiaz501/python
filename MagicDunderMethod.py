@@ -70,3 +70,11 @@ len(A(4,8))
 print(len(A(1,1)))
 
 A(2,5)
+
+class AB():
+    def __init__(self,x,y):
+        self.x = x
+        self.y = y
+        print("Init is called")
+
+AB(7,9)
